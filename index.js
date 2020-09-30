@@ -16,7 +16,8 @@ app.get('/',(req, res)=>{
 //signup
 app.get('/signup', (req, res) => {
     res.sendFile(__dirname+'/template/signup.html')
-})
+})'
+//
 
 
 app.post('/signup', (req, res) => {
